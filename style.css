@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* overflow: hidden; */
+}
+.navbar{
+    width: 100vw;
+    height: 80px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 8px 18px;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    gap: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-left: -6em;
+}
+.mid-nav{
+    width: 10em;
+    margin-right: -5em;
+}
+.right-nav{
+    display: flex;
+    margin-right: -8em;
+    gap: 30px;
+    justify-content: center;
+}
+.search{
+    width: 160px;
+    height: 40px;
+    background-color: #F4F5FA;
+    
+    border: none;
+}
+.input{
+    width: 160px;
+    height: 20px;
+    background-color: #F4F5FA;
+    border-radius: 24px;
+    padding: 12px 32px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.search-icon{
+    width: 15px;
+    height: 15px;
+
+}
+.login {
+    text-decoration: none;
+    color: black;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.sign-up{
+    width: 90px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-weight: 900;
+    background-color: black;
+    border-radius: 24px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.find{
+    width: 400px;
+    height: 5em;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 26px;
+    margin-left: -120px;
+}
+.menu-item{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.drop-icon{
+    width: 0.6em;
+    margin-left: -12px;
+    
+}
+.menu{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.container{
+    width: 990px;
+    /* height: 3500px; */
+    padding: 40px 220px;
+    margin: 10px auto;
+}
+.heading{
+    font-size: 1.5em;
+    padding: 6px 15px;
+}
+.profile{
+    width: 68vw;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 15px;
+    top: 0;
+    position: sticky;
+    background-color: white;
+}
+.pro-img{
+    width: 3em;
+    height: 3em;
+    border-radius: 24px;
+    object-fit: cover;
+}
+.profile-id{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.profile-name{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.id{
+    width: 8em;
+}
+.id-name{
+    font-size: 1em;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+.follow{
+    font-size: 0.75em;
+    text-decoration: none;
+    color: grey;
+}
+.get{
+    width: 9em;
+    height: 40px;
+    background-color: black;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    font-weight: 400;
+}
+.heart{
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 60px;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+.save{
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 60px;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+.hero-containers{
+    margin-top: 2em;
+    width: 64em;
+    height: 4500px;
+    
+}
+.hero1{
+    width: 64em;
+    height: 55em;
+    border-radius: 12px;
+}
